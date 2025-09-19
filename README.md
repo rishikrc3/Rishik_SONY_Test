@@ -59,8 +59,8 @@ Writing the unit test suite , typing it out was the toughest part, also the pars
 Also, nullopt returns a garabge value, so if its a grabage value just return it correclty 
 
 ## Steps to run
-g++ -o main main.cpp
-./main
+1. g++ -o main main.cpp
+2. ./main
 
 ## Assumptions I made
 1. the function signature returns an integer, that means, that the expression returns a value that fits in integer, if it does not using long long is a viable way, or including double to include floating point numbers
